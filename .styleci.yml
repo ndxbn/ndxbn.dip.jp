@@ -1,0 +1,12 @@
+preset: recommended
+risky: false
+
+enabled:
+  - not_operator_with_successor_space
+  - silenced_deprecation_error
+
+finder:
+  exclude:
+    - "tests"
+  name:
+    - "*.php"
