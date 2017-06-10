@@ -29,7 +29,8 @@
     "scripts": {
         "post-root-package-install": [
             "php -r \"copy('.env.example', '.env');\""
-        ]
+        ],
+        "test": "phpdbg -qrr ./vendor/phpunit/phpunit/phpunit"
     },
     "minimum-stability": "dev",
     "prefer-stable": true
